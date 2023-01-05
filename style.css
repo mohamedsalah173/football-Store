@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    background-image: url("./Images/body.jpg");
+    background-size: cover;
+}
+.home {
+    display: inline-block;
+    margin: 0px;
+}
+#nav {
+    opacity: 40%;
+    margin: 0%;
+    width: 100%;
+    background-color: #BAD7E9;
+}
+#nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+}
+#nav li {
+    padding: 15px 5%;
+    display: inline-block; 
+    text-align: right;
+}
+#nav ul li a {
+    text-decoration: none;
+    color:#000  ;
+    text-align: right;
+    font-weight: 1000;
+}
+.slider {
+    opacity: 40%;
+    background-color: #85586F;
+    width: 100%;
+    height: 18.75rem;
+}
+.Feature-product {
+    position: relative;
+    width: 100%;
+    height: 18.75rem;
+    display: inline-block;
+    text-align: center;
+}
+.Feature-product p {
+    margin-bottom: 0;
+    font-size: 2rem;
+    color:rgb(255, 255, 255)  ;
+    text-align: center;
+    font-weight: 1000;
+}
+.t-shirt {
+    width: 10rem;
+    height: 10rem;
+    /* position:; */
+}
+.product1 {
+    margin-top: 0;
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+
+    padding-left: 3.5rem;
+    text-decoration: none;
+    color:#000  ;
+    font-weight: 1000;
+}
+.product2 {
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+
+    padding-left: 3.5rem;
+    text-decoration: none;
+    color:#000  ;
+    font-weight: 1000;
+}
+.product3 {
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+
+    /* padding-left: 3.5rem; */
+    text-decoration: none;
+    color:#000  ;
+    font-weight: 1000;
+}
+.product4 {
+    /* padding-left: 5rem; */
+    display: inline-block;
+    margin: 70px;
+}
+.shirt-desc {
+
+    padding-left: 3.5rem;
+    text-decoration: none;
+    color:#000  ;
+    font-weight: 1000;
+}
+
+/* .Logo {
+    width: 30px;
+    height: 30px;
+}
+
+/* #nav a {
+    
+    /* float: left; 
+    float: left;
+    margin-left: auto;
+    padding:20px ;
+    padding-top: 0;
+    font-size: 20px;
+    width: 15%;
+    text-align: center;
+}
+#nav a:hover {
+    background-color: rgb(231, 169, 169);
+}
+#nav a.active {
+    background-color: #04AA6D;
+}
+a:link { 
+    text-decoration: none; 
+}
+a:visited { 
+    text-decoration:none;
+} */ 
