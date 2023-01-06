@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div id="nav">
+        <ul >
+            <li><a href="home.html">Home</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="user.html">User</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </div>
+    <!--
+    <div class ="contact">
+        <div style="margin: 0" class="mail">
+            <label style="font-size: 1.5rem;">E-mail</label>
+            <input type="email">
+        </div>
+        <div style="margin-top: 10px;" class="message">
+            <label style="vertical-align: top;font-size: 1.2rem;"">Message</label>
+            <textarea rows = "10" cols = "30" name = "description">
+            </textarea>
+        </div>
+        <div>
+            <button style="margin-left: 9.37rem;" type="submit">Submit</button>
+        </div>
+    </div> -->
+    <div class="container">
+        <form>
+      
+          <label for="fname">Your Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">E-mail</label>
+          <input type="text" id="lname" name="lastname" placeholder="Example@gamil.com..">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Egypt">Egypt</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+</body>
+</html>
