@@ -1,6 +1,7 @@
 let slideIndex = 0;
 showSlides();
 
+
 function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
@@ -17,3 +18,13 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+function menuToggle(){
+  const menuToggle = document.querySelector('.menuToggle');
+  const navigation = document.querySelector('.nav-link');
+  menuToggle.classList.toggle('active')
+  navigation.classList.toggle('active')
+}   
+  
+
+  

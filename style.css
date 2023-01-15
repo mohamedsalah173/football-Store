@@ -28,10 +28,16 @@ body {
     width: 100%;
     background-color: #BAD7E9;
 }
+
+
 #nav ul {
     margin-top: 0px;
     margin-bottom: 0px;
     height: 50px;
+}
+nav ul li a:hover {
+    background-color: yellow;
+    text-decoration: underline solid ;
 }
 #nav li {
     padding: 15px 2%;
@@ -76,6 +82,35 @@ body {
     display: inline-block;
     margin: 70px;
 }
+.product1 a:hover{
+    background-color: grey;
+}
+.product1 img:hover{
+   transform: scale(1.1);
+   transition: 0.5;
+}
+.product2 img:hover{
+    transform: scale(1.1);
+    transition: 0.5;
+ }
+ .product3 img:hover{
+    transform: scale(1.1);
+    transition: 0.5;
+ }
+ .product4 img:hover{
+    transform: scale(1.1);
+    transition: 0.5;
+ }
+.product2 a:hover{
+    background-color: grey;
+}
+.product3 a:hover{
+    background-color: grey;
+}
+.product4 a:hover{
+    background-color: grey;
+}
+
 .shirt-desc {
     /* padding-left: 2rem; */
     text-decoration: none;
@@ -133,16 +168,52 @@ body {
 .product-image {
     display: inline-block;
 }
+
+.menuToggle {
+    width: 20%;
+    display: none;
+}
+@media only screen and (max-width: 1000px) {
+    .menuToggle {
+        
+        display: block;
+    }
+    .nav-link {
+         display: none; 
+        width: 100%;
+        text-align: center;
+
+    }
+    #nav li {
+        display: block;
+        text-align: center;
+    }
+    
+    #nav .active {
+        display: block;
+              
+    }
+
+
+}
+
+
+
 .product-image img {
     border-radius: 25px;
-    width: 15rem;
+    width: 25rem;
     height: 15rem;
 }
 .desc {
+    font-size: 20px ;
     border-radius: 20px;
-    background-color: #BAD7E9;
+    background-color: gray;
     display: inline-block;
     vertical-align: top;
+
+}
+.desc-summary {
+    font-size: 12px;    
 }
 .contact {
     position: absolute;
@@ -191,6 +262,7 @@ border-radius: 5px;
 background-color: #f2f2f2;
 padding: 20px;
 }
+
 
 
 /* Users style.css */
@@ -292,6 +364,7 @@ tr:hover {
     position: absolute;
     right: 70%;
     font-weight: bold;
+    color: yellow;
 }
 
 .login-labels input {
@@ -330,6 +403,19 @@ tr:hover {
 
 .active {
     background-color: #717171;
+}
+
+footer {
+    text-align: center;
+    background-color: gray;
+}
+footer ul {
+    padding: 0px;
+}
+footer ul li{
+
+    display: inline-block;
+    margin: 10px;
 }
 /* .mySlides {
     max-width: 100%;

@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
 </head>
 <body>
-    
+    <header>
     <nav id="nav">
-        <ul >
+        <ul class="nav-link">
             <div class="logo">
                 <a href="home.html">
                     <i class="fa-solid fa-futbol"></i>
                 </a>
             </div>
-            <li><a class= "page1" href="home.html">Home</a></li>
-            <li><a href="contact.html" target="_blank">Contact Us</a></li>
-            <li><a href="login.html" target="_blank">Login</a></li>
-            <li><a href="user.html" target="_blank">Users</a></li>
-            <li><a href="register.html" target="_blank">Register</a></li>
+            <li><a class= "link" href="home.html">Home</a></li>
+            <li><a class= "link" href="contact.html" target="_blank">Contact Us</a></li>
+            <li><a class= "link" href="login.html" target="_blank">Login</a></li>
+            <li><a class= "link" href="user.html" target="_blank">Users</a></li>
+            <li><a class= "link" href="register.html" target="_blank">Register</a></li>
+
         </ul>
-        <!-- <img class="Logo" src="./Images/logo.png" alt="logo">
-        <a href="home.html">Home</a> -->
+        <a class="menuToggle"  id = "menuToggle" onclick="menuToggle()"><i class= "fa-solid fa-bars"></i></a>
+        
+
     </nav>
+    </header>
+    
+    <div class="slideshow-container" style="text-align: center; margin-left: 0%;">
 
-
-    <div class="slideshow-container" >
-
-        <div class="mySlides fade">
-            <img src="./Images/main products.webp" style="width:100% ; height: 35rem;">
+        <div class="mySlides">
+            <img src="./Images/main products.webp" style="width:80% ; height: 35rem;">
         </div>
-        <div class="mySlides fade">
-            <img src="./Images/product 1.webp" style="width:100%; height: 35rem;">
+        <div class="mySlides">                                                                         
+            <img src="./Images/product 1.webp" style="width:80%; height: 35rem;">
         </div>
-        <div class="mySlides fade">
-            <img src="./Images/product 2.webp" style="width:100% ; height: 35rem;">
+        <div class="mySlides">
+            <img src="./Images/product 2.webp" style="width:80% ; height: 35rem;">
         </div>
-        <br>
+        <br>    
         <div style="text-align:center">
             <span class="dot"></span> 
             <span class="dot"></span> 
@@ -52,26 +53,40 @@
     <div class="Feature-product">
         <p>Football Store Product</p>
         <div class="product1">
-            <img class="t-shirt" src="./Images/T-shirts.webp" alt="t-shirt"><br>
+            <img class="t-shirt" src="./Images/t-shirts.jpg" alt="t-shirt"><br>
             <a class="shirt-desc" href="product1.html" target="_blank">T-Shirts</a>
+            
         </div>
         <div class="product2">
-            <img class="t-shirt" src="./Images/T-shirts.webp" alt="t-shirt"><br>
-            <a class="shirt-desc" href="product1.html">T-Shirts</a>
+            <img class="t-shirt" src="./Images/balls.jpg" alt="t-shirt"><br>
+            <a class="shirt-desc" href="product2.html" target="_blank">Balls</a>
+            
         </div>
         <div class="product3">
-            <img class="t-shirt" src="./Images/T-shirts.webp" alt="t-shirt"><br>
-            <a class="shirt-desc" href="product1.html">T-Shirts</a>
+            <img class="t-shirt" src="./Images/accessories1.jpg" alt="t-shirt"><br>
+            <a class="shirt-desc" href="product3.html" target="_blank">Accessories</a>
+            
         </div>
         <div class="product4">
-            <img class="t-shirt" src="./Images/T-shirts.webp" alt="t-shirt"><br>
-            <a class="shirt-desc" href="product1.html">T-Shirts</a>
+            <img class="t-shirt" src="./Images/shoes.jpg" alt="t-shirt"><br>
+            <a class="shirt-desc" href="product4.html" target="_blank">Shoes</a>
+            
         </div>
     </div>
-    
+
 </body>
 <footer class="footer">
+    
     <p>This Website Made  with &#10084;</p>
     <p>©️ Moustafa Mahmoud & Mohamed Salah</p>
+    <ul>
+        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+    </ul>
 </footer>
+<script src="index.js" defer></script>
+
 </html>
