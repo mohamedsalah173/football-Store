@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="nav">
+    <!-- <nav id="nav">
         <ul class="nav-link">
             <div class="logo">
                 <a href="home.html">
                     <i class="fa-solid fa-futbol"></i>
+                    <i class="fa fa-bars"></i>
                 </a>
             </div>
             <li><a class= "link" href="home.html">Home</a></li>
@@ -25,7 +26,19 @@
         </ul>
         <a class="menuToggle"  id = "menuToggle" onclick="menuToggle()"><i class= "fa-solid fa-bars"></i></a>
 
-    </nav>
+    </nav> -->
+    <div class="topnav" id="myTopnav">
+        <a class= "link" href="home.html">Home</a>
+        <a class= "link" href="contact.html" >Contact Us</a>
+        <a class= "link" href="login.html" >Login</a>
+        <a class= "link" href="user.html" >Users</a>
+        <a class= "link" href="register.html">Register</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    
+    
     <!--
     <div class ="contact">
         <div style="margin: 0" class="mail">
@@ -66,7 +79,6 @@
 </body>
 <footer>
     <script src="index.js" defer></script>
-
 </footer>
 
 </html>

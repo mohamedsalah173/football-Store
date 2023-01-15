@@ -19,12 +19,18 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
-function menuToggle(){
-  const menuToggle = document.querySelector('.menuToggle');
-  const navigation = document.querySelector('.nav-link');
-  menuToggle.classList.toggle('active')
-  navigation.classList.toggle('active')
-}   
-  
+// function menuToggle(){
+//   const menuToggle = document.querySelector('.menuToggle');
+//   const navigation = document.querySelector('.nav-link');
+//   menuToggle.classList.toggle('active')
+//   navigation.classList.toggle('active')
+// }   
 
-  
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+    x.className = "topnav";
+    }
+}

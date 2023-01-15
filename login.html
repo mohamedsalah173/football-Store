@@ -10,24 +10,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav id="nav">
-        <ul class="nav-link">
-            <div class="logo">
-                <a href="home.html">
-                    <i class="fa-solid fa-futbol"></i>
-                </a>
-            </div>
-            <li><a class= "link" href="home.html">Home</a></li>
-            <li><a class= "link" href="contact.html" >Contact Us</a></li>
-            <li><a class= "link" href="login.html" >Login</a></li>
-            <li><a class= "link" href="user.html" >Users</a></li>
-            <li><a class= "link" href="register.html">Register</a></li>
-        </ul>
-        <a class="menuToggle"  id = "menuToggle" onclick="menuToggle()"><i class= "fa-solid fa-bars"></i></a>
-
-    </nav>
-    <div class="login-labels">
-        <form>
+    <div class="topnav" id="myTopnav">
+        <a class= "link" href="home.html">Home</a>
+        <a class= "link" href="contact.html" >Contact Us</a>
+        <a class= "link" href="login.html" >Login</a>
+        <a class= "link" href="user.html" >Users</a>
+        <a class= "link" href="register.html">Register</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div class="login-labels" style="position: relative;">
+        <form class="loginForm">
             <label for="username">UserName</label>
             <input type="text" name="UserName" placeholder="User Name">
             <label for="Password">Password</label>
@@ -35,9 +29,8 @@
             <button class ="login-btn">Login</button>
         </form>
     </div>
-
+    
 </body>
-<footer>
-    <script src="index.js" defer></script>
-</footer>
+<br>
+<script src="index.js" defer></script>
 </html>
