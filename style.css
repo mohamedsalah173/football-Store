@@ -12,8 +12,7 @@ body {
 
 
 .logo {
-    position: absolute;
-    margin-top: 15px;
+    text-align: left;
 }
 .home {
     background-color: #BAD7E9 ;
